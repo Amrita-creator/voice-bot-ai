@@ -1,0 +1,97 @@
+# Python
+# Environment Variables
+
+.env
+.env.*
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Virtual Environment
+
+venv/
+.env/
+ENV/
+.venv/
+
+# Flask
+
+instance/
+.webassets-cache/
+
+# Environment Variables
+
+.env
+.env.*
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+
+logs/
+*.log
+chat_logs.txt
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Hugging Face / Cache
+
+.cache/
+.huggingface/
+
+# Ngrok
+
+ngrok.exe
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Node Modules (if frontend tools added later)
+
+node_modules/
+
+# Audio / Generated Voice Files
+
+*.wav
+*.mp3
+*.ogg
+
+# Uploaded Files
+
+uploads/
+
+# Secrets
+
+secrets.json
+config.json
+apikeys.json
+
+# Runtime Files
+
+*.pid
+*.sqlite3
+
+# Mac/Linux hidden files
+
+.*~

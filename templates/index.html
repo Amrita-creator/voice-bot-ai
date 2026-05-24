@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindi + Telugu Voice Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap)" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <h1>Voice Assistant</h1>
+            </div>
+            <p class="subtitle">Hindi + Telugu Interactive Bot</p>
+        </header>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <p>Namaste! 🙏 Main aapka voice assistant hoon. Hindi aur Telugu dono mein baat kar sakte hain. Mic button dabayein aur bolna shuru karein!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Transcript -->
+        <div class="transcript-container" id="transcriptContainer">
+            <div class="transcript-header">
+                <span class="transcript-icon">📝</span>
+                <span>Live Transcript</span>
+            </div>
+            <div class="transcript-text" id="liveTranscript">
+                Mic button dabayein aur bolna shuru karein...
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="mic-button" id="micButton" aria-label="Start Recording">
+                <span class="mic-icon">🎤</span>
+                <span class="mic-text">Tap to Speak</span>
+            </button>
+            
+            <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Ready</span>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn" id="clearChat" title="Clear Chat">
+                🗑️ Clear Chat
+            </button>
+            <button class="action-btn" id="viewLogs" title="View Logs">
+                📋 View Logs
+            </button>
+        </div>
+
+        <!-- Logs Modal -->
+        <div class="modal" id="logsModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>📋 Conversation Logs</h2>
+                    <button class="close-btn" id="closeModal">&times;</button>
+                </div>
+                <div class="modal-body" id="logsContent">
+                    <!-- Logs will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary" id="downloadLogs">📥 Download</button>
+                    <button class="btn-danger" id="clearLogs">🗑️ Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -23,7 +23,6 @@ Unlike traditional keyword-only chatbots, this assistant combines:
 
 to create a more natural multilingual AI assistant experience.
 
----
 
 # ✨ Features
 
@@ -42,7 +41,6 @@ This keeps the system:
 * beginner-friendly
 * internship-ready
 
----
 
 ## 🌍 Multilingual Support
 
@@ -60,7 +58,6 @@ User: Demo kavali
 Bot: Sure 😊 Demo arrange cheddam. Morning ya evening convenient untundi?
 ```
 
----
 
 ## 🎤 Voice Features
 
@@ -76,7 +73,6 @@ Bot: Sure 😊 Demo arrange cheddam. Morning ya evening convenient untundi?
 * Hindi voice preference
 * Real-time voice responses
 
----
 
 ## 💬 Conversational Memory
 
@@ -102,7 +98,6 @@ User: Online
 Bot: Email ID share cheyyandi.
 ```
 
----
 
 ## 🤖 AI-Enhanced Conversations
 
@@ -116,7 +111,6 @@ Hugging Face LLM improves:
 
 The AI layer rewrites and enhances base responses generated using `pick_response()`.
 
----
 
 # 🛠️ Tech Stack
 
@@ -144,7 +138,6 @@ The AI layer rewrites and enhances base responses generated using `pick_response
 * Semantic intent matching
 * Context-aware response generation
 
----
 
 # 📂 Project Structure
 
@@ -163,7 +156,6 @@ voice-bot/
 └── README.md
 ```
 
----
 
 # ⚙️ Installation
 
@@ -174,7 +166,6 @@ git clone <your-repo-url>
 cd voice-bot
 ```
 
----
 
 ## 2️⃣ Create Virtual Environment
 
@@ -196,7 +187,6 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
----
 
 ## 3️⃣ Install Dependencies
 
@@ -214,8 +204,6 @@ Inside `app.py`:
 HF_API_TOKEN = "YOUR_API_KEY"
 ```
 
----
-
 ## 5️⃣ Run Flask App
 
 ```bash
@@ -228,7 +216,6 @@ Open:
 http://127.0.0.1:5000
 ```
 
----
 
 # 🌐 Ngrok Deployment
 
@@ -246,7 +233,6 @@ ngrok http 5000
 
 Use the generated public URL.
 
----
 
 # 🧠 Core Functionalities
 
@@ -265,7 +251,6 @@ Handles:
 * thank-you responses
 * goodbye handling
 
----
 
 ## ✅ Context-Aware Flow
 
@@ -288,8 +273,6 @@ Stores:
 }
 ```
 
----
-
 ## ✅ Semantic Matching
 
 The assistant supports indirect conversational phrases.
@@ -304,7 +287,6 @@ Example:
 
 all map to the same intent.
 
----
 
 # 🎯 Example Conversation
 
@@ -322,7 +304,6 @@ User: Online
 Bot: Sure 😊 Google Meet session setup cheddam. Contact email pampandi.
 ```
 
----
 
 # 🚀 Future Improvements
 
@@ -338,7 +319,6 @@ Planned improvements:
 * vector search embeddings
 * multilingual expansion
 
----
 
 # 📌 Project Highlights
 
@@ -356,7 +336,6 @@ Planned improvements:
 
 ✅ Internship-ready AI project
 
----
 
 # 👨‍💻 Author
 
@@ -369,7 +348,6 @@ Built as an AI internship project focused on:
 * voice interaction
 * AI-enhanced assistants
 
----
 
 # 📄 License
 
